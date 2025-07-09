@@ -3,3 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply text-RaisinBlack;
+  @apply bg-ShadowBlue;
+}
