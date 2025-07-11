@@ -3,8 +3,14 @@ import { CssSyntaxError } from "postcss";
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  content: [],
   theme: {
+    screens: {
+      sm: "350px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     colors: {
       brown: "#A0522D",
       brownLight: "#D2B48C",
@@ -17,6 +23,8 @@ export default {
       brownDark: "#8B4513",
       black: "#000000",
       white: "#FFFFFF",
+      whiteSmoke: "#F5F5F5",
+      whiteSnow: "#FFFAFA",
       cyan: "#00FFFF",
       cyanLight: "#E0FFFF",
       cyanDark: "#008B8B",
@@ -27,9 +35,13 @@ export default {
       greyLight: "#D3D3D3",
       greyDark: "#696969",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        cyanShadow: "0 0px 20px 0px rgba(200, 206, 220, 0.5)",
+      },
+    },
     fontFamily: {
-      body: ["joselin sans"],
+      body: ["Josefin Sans"],
       special: ["Roboto"],
     },
   },
