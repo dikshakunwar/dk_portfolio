@@ -43,6 +43,7 @@ export default {
     fontFamily: {
       body: ["Josefin Sans"],
       special: ["Roboto"],
+      body2: ["Roboto Condensed"],
     },
   },
   plugins: [],

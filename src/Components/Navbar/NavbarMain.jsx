@@ -10,7 +10,7 @@ const NavbarMain = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <nav className="pb-0 pt-0 nav-w-[1200px] mb-0 mx-auto px-4 w-full fixed left-[50%] -translate-x-[50%] z-20 flex gap-0 mt-0 mb-0">
+    <nav className="-mt-2 pt-0 nav-w-[1200px] mb-0 mx-auto px-4 w-full fixed left-[50%] -translate-x-[50%] z-20 flex gap-0 ">
       <div className="flex justify-between w-full max-w-[1200px] mx-auto bg-black items-center p-2 rounded-r-full  rounded-l-full border-[0.5px] border-RaisinBlack">
         <NavbarLogo />
         <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
@@ -18,7 +18,7 @@ const NavbarMain = () => {
         </div>
         <NavbarBtn />
       </div>
-      <div className="flex lg:hidden sm:block p-6 bg-black items-center justify-center rounded-full border-[0.5px] border-RaisinBlack">
+      <div className="py-2 flex lg:hidden sm:block p-6 bg-black items-center justify-center rounded-full border-[0.5px] border-RaisinBlack">
         <button
           className="text-2xl p-3 rounded-full text-white"
           onClick={tooggleMenu}

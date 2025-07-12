@@ -3,7 +3,7 @@ import NavbarMain from "./Components/Navbar/NavbarMain.jsx";
 import PNMain from "./Components/photoname/PNMain.jsx";
 function App() {
   return (
-    <main className="font-body font-bold">
+    <main className="font-body">
       <NavbarMain />
       <PNMain />
     </main>
