@@ -7,5 +7,5 @@
 
 body {
   @apply text-RaisinBlack;
-  @apply bg-whiteSmoke;
+  @apply bg-gradient-to-b from-greyLight to-white;
 }

@@ -38,6 +38,7 @@ export default {
     extend: {
       boxShadow: {
         cyanShadow: "0 0px 20px 0px rgba(200, 206, 220, 0.5)",
+        overlay: "fabric': '0 0px 20px 0px rgba(200, 206, 220, 0.5)",
       },
     },
     fontFamily: {
