@@ -1,6 +1,7 @@
 import NavbarMain from "./Components/Navbar/NavbarMain.jsx";
 import PNMain from "./Components/photoname/PNMain.jsx";
 import InforMain from "./Components/about/InforMain.jsx";
+import SkillMain from "./Components/skills/SkillMain.jsx";
 function App() {
   return (
     <main className="font-body">
@@ -9,6 +10,7 @@ function App() {
       <div>
         <InforMain />
       </div>
+      <SkillMain />
     </main>
   );
 }
