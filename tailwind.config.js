@@ -45,6 +45,7 @@ export default {
       body: ["Josefin Sans"],
       special: ["Roboto"],
       body2: ["Roboto Condensed"],
+      body3: ["Abril Fatface"],
     },
   },
   plugins: [],

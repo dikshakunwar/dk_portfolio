@@ -3,8 +3,8 @@ const Picture = () => {
     <div>
       <div className="flex justify-center mt-[10%]">
         <img
-          className=" h-[50%] max-h-[400px] w-[30%] mx-auto my-0   md:w-[80%] md:max-h-full md:rounded-full md:block sm:hidden  object-cover mr-[70%] -mt-[20%]"
-          src="../../public/Images/WhatsApp_Image_2025-07-10_at_00.53.04__2_-removebg-preview.png"
+          className=" h-[400px] max-h-[400px] w-[300px] mx-auto my-0   md:w-[500px] md:max-h-full md:block sm:hidden  ml-[150px] -mt-[5%]"
+          src="../../public/Images/experience-image.png"
           alt=""
         />
       </div>

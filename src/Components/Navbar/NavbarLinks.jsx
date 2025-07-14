@@ -1,7 +1,7 @@
 import React from "react";
 const NavbarLinks = () => {
   return (
-    <ul className="flex  gap-9 text-white font-bold text-center lg:flex-row sm:flex-col lg:relative sm:absolute sm:top-[120%] left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:text-black sm:bg-MutedRose/10  backdrop-blur-lg lg:bg-black lg:text-whiteSmoke sm:w-[80%] py-1 ">
+    <ul className="flex  gap-9 text-white font-bold text-center lg:flex-row sm:flex-col lg:relative sm:absolute sm:top-[120%] left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:text-black sm:bg-MutedRose/10  backdrop-blur-lg lg:bg-black lg:text-whiteSmoke sm:w-[100%] py-1 ">
       <li className="group">
         <a
           href="about"
