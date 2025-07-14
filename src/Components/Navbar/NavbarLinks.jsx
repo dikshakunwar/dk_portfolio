@@ -7,7 +7,7 @@ const NavbarLinks = () => {
           href="about"
           className="cursor-pointer hover:text-2xl transition-all duration-500 "
         >
-          About_Me
+          About
         </a>
         <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
       </li>
