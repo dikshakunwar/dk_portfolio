@@ -5,13 +5,13 @@ const projects = [
   {
     name: "Portfolio",
     description:
-      "It is a responsive and dynamic site built with React and Tailwind CSS to present my work and skills. It includes interactive project sections, tech tags, and links to GitHub and live demos, offering a complete view of my developer profile.",
+      "It is a responsive and dynamic site built with React and Tailwind CSS to present my work and skills. It includes interactive project sections, tech tags, and links to GitHub, offering a complete view of my developer profile.",
     image: "../../../public/Images/image copy.png",
     linkLive: "#",
     linkStudy: "#",
     stack: [
       { name: "React" },
-      { name: "TailwindCSS" },
+      { name: "Tailwind CSS" },
       { name: "Express" },
       { name: "MongoDB" },
     ],
@@ -42,7 +42,7 @@ const projects = [
       { name: "CSS" },
       { name: "JavaScript" },
       { name: "React" },
-      { name: "AWS-Rekoginition" },
+      { name: "Rekognition" },
       { name: "Cognito" },
       { name: "EC2" },
       { name: "S3" },

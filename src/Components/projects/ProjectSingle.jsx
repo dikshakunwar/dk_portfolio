@@ -11,7 +11,7 @@ const ProjectSingle = ({
   stack,
 }) => {
   return (
-    <div className="rounded-2xl w-full max-w-sm h-[600px] shadow-lg p-1 bg-black/25 hover:border-1 border-greyDark transition-all duration-500">
+    <div className="rounded-2xl w-full max-w-sm h-[600px] shadow-lg p-1 bg-black/25">
       <img
         src={image}
         alt=""
