@@ -5,7 +5,7 @@ const projects = [
   {
     name: "Portfolio",
     description:
-      "A personal portfolio website to showcase my skills and projects.",
+      "It is a responsive and dynamic site built with React and Tailwind CSS to present my work and skills. It includes interactive project sections, tech tags, and links to GitHub and live demos, offering a complete view of my developer profile.",
     image: "../../../public/Images/image copy.png",
     linkLive: "#",
     linkStudy: "#",
@@ -19,7 +19,7 @@ const projects = [
   {
     name: "YelpCamp",
     description:
-      "A personal portfolio website to showcase my skills and projects.",
+      "YelpCamp is a full-stack MERN project where users can explore, add, and review campgrounds. It features an interactive map that allows users to add their own campgrounds with location pins, making it easy to discover and share outdoor spots.",
     image: "../../../public/Images/image copy 3.png",
     linkLive: "#",
     linkStudy: "#",
@@ -33,7 +33,7 @@ const projects = [
   {
     name: "Image Label Generator",
     description:
-      "A personal portfolio website to showcase my skills and projects.",
+      "Image Label Generator is a secure, AWS-powered project that lets users upload images to get automated labels and celebrity face detection using Rekognition. It includes user authentication and cloud storage for a seamless image processing experience.",
     image: "../../../public/Images/image.png",
     linkLive: "#",
     linkStudy: "#",
@@ -52,9 +52,9 @@ const projects = [
 
 const ProjectMain = () => {
   return (
-    <div>
+    <div className="flex flex-col md:mt-0 sm:mt-[300px]">
       <ProjectText />
-      <div className="grid md:grid-cols-3 sm:grid-cols-1  gap-9  my-16 md:-mx-[70px] md:px-[300px]">
+      <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 items-center justify-center gap-9 lg:max-w-[1100px] md:max-w-[800px] sm:max-w-[400px] mx-auto lg:max-px-[100px] mt-10">
         {projects.map((item, index) => (
           <ProjectSingle
             key={index}
@@ -70,5 +70,4 @@ const ProjectMain = () => {
     </div>
   );
 };
-
 export default ProjectMain;
