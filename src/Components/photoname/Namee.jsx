@@ -8,7 +8,7 @@ const Namee = () => {
           hello!!
         </button>
       </div>
-      <h1 className="md:text-[2.8rem] lg:text-4xl sm:text-3xl font-body3 text-bold">
+      <h1 className="md:text-4xl lg:text-4xl sm:text-3xl font-body3 text-bold">
         I'm Diksha Kunwar
       </h1>
       <h2 className="-mt-3 -mb-6 md:text-[1.8rem] lg:text-xl sm:text-1xl font-special">

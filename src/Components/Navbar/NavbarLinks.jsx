@@ -16,7 +16,7 @@ const NavbarLinks = () => {
           href="skills"
           className="cursor-pointer hover:text-2xl transition-all duration-500 "
         >
-          Skills{" "}
+          Skills
         </a>
         <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
       </li>
@@ -25,8 +25,7 @@ const NavbarLinks = () => {
           href="project"
           className="cursor-pointer hover:text-2xl transition-all duration-500"
         >
-          {" "}
-          Projects{" "}
+          Projects
         </a>
         <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
       </li>
@@ -35,7 +34,16 @@ const NavbarLinks = () => {
           href="contact"
           className="cursor-pointer hover:text-2xl transition-all duration-500"
         >
-          Contact{" "}
+          Achievements
+        </a>
+        <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
+      </li>
+      <li className="group">
+        <a
+          href="contact"
+          className="cursor-pointer hover:text-2xl transition-all duration-500"
+        >
+          Contact
         </a>
         <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
       </li>

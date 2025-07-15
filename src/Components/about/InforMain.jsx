@@ -8,7 +8,7 @@ const InforMain = () => {
     <div className="w-[20%] h-screen bg-greyDark text-white md:-mt-[130px] sm:-mt-4  rounded-2xl flex md:flex-row sm:flex-col md:w-full sm:w-full items-center relative">
       <div className="h-[20px] flex items-center justify-center">
         <Picture />
-        <div className="absolute -z-9 mr-[500px] flex justify-center items-center animate-pulse sm:hidden md:block">
+        <div className="absolute -z-9 mr-[500px] flex justify-center items-center animate-pulse sm:hidden lg:block">
           <LuCircleDashed className="md:h-[10%] sm:h-[120%] min-h-[600px] w-[400px] mt-[15%] text-ShadowBlue blur-2xl animate-pulse duration-[1s] ease-linear" />
         </div>
         <Info />

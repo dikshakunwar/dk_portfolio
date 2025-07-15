@@ -45,12 +45,12 @@ const skills = [
 
 const AllSkillsSM = () => {
   return (
-    <div className="grid md:grid-cols-4 sm:grid-cols-2  gap-10 my-12">
+    <div className="grid md:grid-cols-4 sm:grid-cols-2  gap-10  my-16 mx-12">
       {skills.map((item, index) => {
         return (
           <div key={index} className="flex flex-col items-center ">
             <item.icon className="text-7xl text-MutedRose" />
-            <p className="text-center font-body2 font-bold mt-4">
+            <p className="text-center font-body2 font-bold mt-2">
               {item.skill}
             </p>
           </div>
