@@ -2,7 +2,7 @@ import React from "react";
 
 const AchTopRight = () => {
   return (
-    <div className="md:pt-[20px] md:max-w-[400px] lg:max-w-[700px] p-[50px] sm:mx-[30px] sm:mt-[20px] border-2 rounded-2xl border-ShadowBlue bg-ShadowBlue/40">
+    <div className="md:pt-[20px] md:max-w-[400px] lg:max-w-[700px] p-[50px] sm:mx-[30px] sm:mt-[20px] border-2 rounded-2xl border-ShadowBlue bg-ShadowBlue/40 hover:scale-105 transition-all duration-500">
       <h1 className="font-body font-bold text-2xl">
         Winner - Monthly Coding Series (2025)
       </h1>

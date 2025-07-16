@@ -36,6 +36,15 @@ export default {
       greyDark: "#696969",
     },
     extend: {
+      keyframes: {
+        blink: {
+          "80%, 100%": { opacity: "1" },
+          "50%": { opacity: "0" },
+        },
+      },
+      animation: {
+        blink: "blink 3s infinite",
+      },
       boxShadow: {
         cyanShadow: "0 0px 20px 0px rgba(200, 206, 220, 0.5)",
         overlay: "fabric': '0 0px 20px 0px rgba(200, 206, 220, 0.5)",

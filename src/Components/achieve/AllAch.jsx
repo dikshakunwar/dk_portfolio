@@ -1,9 +1,9 @@
 import React from "react";
-
+import { SiLeetcode } from "react-icons/si";
 const AllAch = () => {
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6 mt-2 p-[30px]">
-      <div className="pt-[20px] p-[50px] border-2 rounded-2xl border-ShadowBlue bg-ShadowBlue/40">
+      <div className="pt-[20px] p-[50px] border-2 rounded-2xl border-ShadowBlue bg-ShadowBlue/40 hover:scale-105 transition-all duration-500">
         <h1 className="font-body font-bold text-2xl">SEFA 2025 Selection</h1>
         <p className="font-body2 text-justify">
           Selected for SEFA 2025 in recognition of my consistent academic
@@ -11,9 +11,15 @@ const AllAch = () => {
           technical activities throughout my Computer Science journey.
         </p>
       </div>
-      <div className="pt-[20px] p-[50px] border-2 rounded-2xl border-ShadowBlue bg-ShadowBlue/40">
-        <h1 className="font-body font-bold text-2xl">
+      <div className="pt-[20px] p-[50px] border-2 rounded-2xl border-ShadowBlue bg-ShadowBlue/40 hover:scale-105 transition-all duration-500">
+        <h1 className="flex flex-cols font-body font-bold text-2xl">
           300+ LeetCode Problems Solved
+          <a
+            href="https://leetcode.com/u/_diksha_kunwar_/"
+            className="max-w-[200px] mt-2"
+          >
+            <SiLeetcode className="text-[35px] animate-blink" />
+          </a>
         </h1>
         <p className="font-body2 text-justify">
           Solved over 300+ LeetCode problems, strengthening my grasp on data
@@ -21,7 +27,7 @@ const AllAch = () => {
           commitment to improving my coding and problem-solving skills.
         </p>
       </div>
-      <div className="pt-[20px] p-[50px] border-2 rounded-2xl border-ShadowBlue bg-ShadowBlue/40">
+      <div className="pt-[20px] p-[50px] border-2 rounded-2xl border-ShadowBlue bg-ShadowBlue/40 hover:scale-105 transition-all duration-500">
         <h1 className="font-body font-bold text-2xl">
           Academic Excellence (CGPA 8.95)
         </h1>
