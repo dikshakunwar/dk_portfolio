@@ -7,7 +7,7 @@ const ContactRight = () => {
       <img
         src="../../public/Images/email-image.png"
         alt=""
-        className="max-w-[300px]"
+        className="max-w-[280px]"
       />
       <ContactInfo />
       <ContactSocial />
