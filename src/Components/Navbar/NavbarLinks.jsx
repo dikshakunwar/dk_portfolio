@@ -1,52 +1,33 @@
-import React from "react";
+import { Link } from "react-scroll";
+
+const links = [
+  { link: "About Me", section: "about" },
+  { link: "Skills", section: "skills" },
+  { link: "Project", section: "project" },
+  { link: "Achievement", section: "achievement" },
+  { link: "Contact", section: "contact" },
+];
+
 const NavbarLinks = () => {
   return (
-    <ul className="flex  gap-9 text-white font-bold text-center lg:flex-row sm:flex-col lg:relative sm:absolute sm:top-[120%] left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:text-black sm:bg-MutedRose/10  backdrop-blur-lg lg:bg-black lg:text-whiteSmoke sm:w-[100%] py-1 ">
-      <li className="group">
-        <a
-          href="about"
-          className="cursor-pointer hover:text-2xl transition-all duration-500 "
-        >
-          About
-        </a>
-        <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
-      </li>
-      <li className="group">
-        <a
-          href="skills"
-          className="cursor-pointer hover:text-2xl transition-all duration-500 "
-        >
-          Skills
-        </a>
-        <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
-      </li>
-      <li className="group">
-        <a
-          href="project"
-          className="cursor-pointer hover:text-2xl transition-all duration-500"
-        >
-          Projects
-        </a>
-        <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
-      </li>
-      <li className="group">
-        <a
-          href="contact"
-          className="cursor-pointer hover:text-2xl transition-all duration-500"
-        >
-          Achievements
-        </a>
-        <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
-      </li>
-      <li className="group">
-        <a
-          href="contact"
-          className="cursor-pointer hover:text-2xl transition-all duration-500"
-        >
-          Contact
-        </a>
-        <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
-      </li>
+    <ul className="flex lg:flex-row sm:flex-col gap-6 text-white font-body lg:relative sm:absolute sm:top-[120%] text-center left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:bg-MutedRose/30 backdrop-blur-lg lg:bg-black sm:w-full py-4">
+      {links.map((link, index) => {
+        return (
+          <li key={index} className="group">
+            <Link
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-130}
+              to={link.section}
+              className="cursor-pointer text-white transition-all duration-500"
+            >
+              {link.link}
+            </Link>
+            <div className="mx-auto bg-MutedRose w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
+          </li>
+        );
+      })}
     </ul>
   );
 };

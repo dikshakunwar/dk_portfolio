@@ -4,7 +4,7 @@ import ContactRight from "./ContactRight";
 const ContactMain = () => {
   return (
     <div
-      id="Contact "
+      id="contact"
       className="max-w-[1200px] mx-auto items-center justify-center mt-[100px] px-4"
     >
       <h2 className="text-6xl font-body3 text-black mb-10 text-center">
