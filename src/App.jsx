@@ -5,6 +5,7 @@ import SkillMain from "./Components/skills/SkillMain.jsx";
 import ProjectMain from "./Components/projects/ProjectMain.jsx";
 import AchMain from "./Components/achieve/AchMain.jsx";
 import ContactMain from "./Components/contact/ContactMain.jsx";
+import FooterMain from "./Components/footer/FooterMain.jsx";
 function App() {
   return (
     <main className="font-body">
@@ -17,6 +18,7 @@ function App() {
       <ProjectMain />
       <AchMain />
       <ContactMain />
+      <FooterMain />
     </main>
   );
 }
