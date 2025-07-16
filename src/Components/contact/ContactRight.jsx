@@ -5,7 +5,7 @@ const ContactRight = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-12">
       <img
-        src="../../public/Images/email-image.png"
+        src="/dk_portfolio/Images/email-image.png"
         alt=""
         className="max-w-[280px]"
       />
