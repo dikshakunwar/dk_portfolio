@@ -6,7 +6,7 @@ const projects = [
     name: "Portfolio",
     description:
       "It is a responsive and dynamic site built with React and Tailwind CSS to present my work and skills. It includes interactive project sections, tech tags, and links to GitHub, offering a complete view of my developer profile.",
-    image: "/dk_portfolio/public/Images/image copy.png",
+    image: "/dk_portfolio/Images/image copy.png",
     linkLive: "#",
     linkStudy: "#",
     stack: [
@@ -20,7 +20,7 @@ const projects = [
     name: "YelpCamp",
     description:
       "YelpCamp is a full-stack MERN project where users can explore, add, and review campgrounds. It features an interactive map that allows users to add their own campgrounds with location pins, making it easy to discover and share outdoor spots.",
-    image: "/dk_portfolio/public/Images/image copy 3.png",
+    image: "/dk_portfolio/Images/image copy 3.png",
     linkLive: "#",
     linkStudy: "#",
     stack: [
@@ -34,7 +34,7 @@ const projects = [
     name: "Image Label Generator",
     description:
       "Image Label Generator is a secure, AWS-powered project that lets users upload images to get automated labels and celebrity face detection using Rekognition. It includes user authentication and cloud storage for a seamless image processing experience.",
-    image: "/dk_portfolio/public/Images/image.png",
+    image: "/dk_portfolio/Images/image.png",
     linkLive: "#",
     linkStudy: "#",
     stack: [
