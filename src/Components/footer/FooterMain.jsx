@@ -6,7 +6,7 @@ const FooterMain = () => {
         <p className="text-3xl mt-2 font-body3 uppercase sm:hidden md:block">
           Diksha Kunwar
         </p>
-        <p className="flex mt-3 sm:text-right sm:ml-[180px]">
+        <p className="flex mt-3 sm:ml-[130px]">
           © 2025 Diksha Kunwar. All rights reserved.
         </p>
       </div>

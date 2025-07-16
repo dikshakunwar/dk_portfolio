@@ -17,7 +17,7 @@ const PhotoBack = () => {
         </button>
       </div>
       <button className="flex flex-row gap-2 px-4 py-2 -mr-4 rounded-full sm:text-MutedRose md:text-white hover:bg-MutedRose hover:text-white hover:scale-105 transition-all duration-300">
-        <a href="../../../public/Images/diksha_resumee.pdf"> CV </a>
+        <a href="/dk_portfolio/Images/diksha_resumee.pdf"> CV </a>
         <GrResume className="sm:hidden md:block" />
       </button>
     </div>

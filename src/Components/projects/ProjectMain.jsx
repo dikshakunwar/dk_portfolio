@@ -7,7 +7,7 @@ const projects = [
     description:
       "It is a responsive and dynamic site built with React and Tailwind CSS to present my work and skills. It includes interactive project sections, tech tags, and links to GitHub, offering a complete view of my developer profile.",
     image: "/dk_portfolio/Images/image copy.png",
-    linkLive: "#",
+    linkLive: "https://dikshakunwar.github.io/dk_portfolio/",
     linkStudy: "#",
     stack: [
       { name: "React" },
