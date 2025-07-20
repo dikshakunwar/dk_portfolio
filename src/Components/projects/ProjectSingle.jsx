@@ -7,7 +7,7 @@ const ProjectSingle = ({
   description,
   image,
   linkLive,
-  linkStory,
+  //linkStory,
   stack,
 }) => {
   return (
@@ -35,14 +35,14 @@ const ProjectSingle = ({
           ))}
       </div>
       <div className="flex flex-row m-4 gap-2">
-        <button className="flex flex-row gap-1 text-sm bg-CustumBlue text-white rounded-full px-2 py-1 hover:scale-110 transition-all duration-500">
+        <button className="flex flex-row gap-1 text-sm bg-black text-white rounded-full px-2 py-1 hover:scale-110 transition-all duration-500">
           <a href={linkLive}>Source Code</a>
           <MdOutlineArrowOutward />
         </button>
-        <button className="flex flex-row gap-1 text-sm bg-black text-white rounded-full px-2 py-1 hover:scale-110 transition-all duration-500">
+        {/* <button className="flex flex-row gap-1 text-sm bg-black text-white rounded-full px-2 py-1 hover:scale-110 transition-all duration-500">
           Case Study
           <MdDoubleArrow />
-        </button>
+        </button> */}
       </div>
     </div>
   );
