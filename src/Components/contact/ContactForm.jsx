@@ -51,7 +51,7 @@ const ContactForm = () => {
           onChange={handleName}
         />
         <input
-          name="form_email"
+          name="from_email"
           type="email"
           placeholder="Your Email"
           required
