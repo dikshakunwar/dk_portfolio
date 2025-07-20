@@ -52,7 +52,7 @@ const projects = [
 
 const ProjectMain = () => {
   return (
-    <div id="project" className="flex flex-col md:mt-0 sm:mt-[300px]">
+    <div id="project" className="flex flex-col md:mt-[100px] sm:mt-[400px]">
       <ProjectText />
       <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 items-center justify-center gap-9 lg:max-w-[1100px] md:max-w-[800px] sm:max-w-[400px] mx-auto lg:max-px-[100px] mt-10 p-2">
         {projects.map((item, index) => (
