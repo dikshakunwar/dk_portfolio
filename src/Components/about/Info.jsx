@@ -2,7 +2,7 @@ import React from "react";
 
 const Info = () => {
   return (
-    <div className="text-white text-center px-5 py-6 md:pt-0 justify-center space-between sm:items-center  sm:pt-[700px]">
+    <div className="text-black text-center px-5 py-6 md:pt-0 justify-center space-between sm:items-center  sm:pt-[700px]">
       <h1 className="uppercase font-body3 font-bold text-6xl sm:text-5xl sm:text-center lg:text-left lg:ml-[20px]  lg:pt-[5px] sm:px-6 md:ml-[50px] ">
         About Me
       </h1>

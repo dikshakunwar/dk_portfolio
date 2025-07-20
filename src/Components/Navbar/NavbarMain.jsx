@@ -2,6 +2,7 @@ import React from "react";
 import NavbarLogo from "./NavbarLogo";
 import NavbarLinks from "./NavbarLinks";
 import NavbarBtn from "./NavbarBtn";
+
 import { TfiMenu } from "react-icons/tfi";
 import { useState } from "react";
 const NavbarMain = () => {
@@ -14,7 +15,7 @@ const NavbarMain = () => {
       <div className="flex justify-between w-full max-w-[1200px] mx-auto bg-black items-center px-2.5 py-1 rounded-r-full  rounded-l-full border-[0.5px] border-RaisinBlack">
         <NavbarLogo />
         <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
-          <NavbarLinks />
+          <NavbarLinks menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         </div>
         <NavbarBtn />
       </div>

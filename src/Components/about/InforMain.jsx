@@ -7,7 +7,7 @@ const InforMain = () => {
   return (
     <div
       id="about"
-      className="w-[20%] h-screen bg-greyDark text-white md:-mt-[130px] sm:-mt-4  rounded-2xl flex md:flex-row sm:flex-col md:w-full sm:w-full items-center relative"
+      className="w-[20%] h-[800px] bg-greyLight text-white md:-mt-[130px] sm:-mt-4  rounded-2xl flex md:flex-row sm:flex-col md:w-full sm:w-full items-center relative"
     >
       <div className="h-[20px] flex items-center justify-center">
         <Picture />
