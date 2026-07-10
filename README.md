@@ -1,14 +1,45 @@
-MY Portfolio
+# 🌐 Personal Portfolio
 
-<!-- # React + Vite
+A modern and responsive personal portfolio website built with **React** and **Tailwind CSS** to showcase my skills, projects, achievements, and technical journey.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+This portfolio serves as my digital presence, highlighting my work as a Full-Stack Developer. It provides visitors with an overview of my background, technical expertise, featured projects, achievements, and ways to connect with me.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 👋 Professional introduction and About Me section
+- 💻 Showcase of featured projects with descriptions
+- 🏆 Achievements and certifications
+- 🛠 Technical skills and technology stack
+- 📄 Resume download
+- 📱 Fully responsive design for desktop, tablet, and mobile
+- ⚡ Smooth navigation and modern user interface
+- 📬 Contact section for easy communication
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project. -->
+## 🛠 Tech Stack
+
+- **Frontend:** React
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Deployment:** GitHub Pages
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+├── assets/
+├── pages/
+├── App.jsx
+└── main.jsx
+```
+
+
+## 📌 Purpose
+
+This portfolio reflects my journey as a developer, demonstrates my technical skills through real-world projects, and serves as a central place for recruiters and collaborators to learn more about my work.
+
+---
+
+⭐ If you found this project interesting, consider giving it a star!
